@@ -85,8 +85,7 @@ class Home extends React.Component {
         </section>
 
         <div class="information__pictures">
-            <img src="img/story-1.jpeg" alt="Couple with new house" class="information__img--1"/>
-            <img src="img/story-2.jpeg" alt="New house" class="information__img--2"/>
+                <p>Hello world</p>
         </div>
 
         <div class="information__content">
