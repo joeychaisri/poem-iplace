@@ -1,7 +1,7 @@
 {
   "name": "iplace",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "node-sass": "^4.10.0",
     "react": "^16.6.3",
