@@ -1,0 +1,48 @@
+.footer{
+    
+    &__section1{
+        grid-column: 1/2 ;
+        color: white;
+        text-align: center;
+        position: relative;
+        margin-top: 5vh;
+
+        &__address{
+            margin-top: 4vh;
+            margin-left: 4vw;
+            font-size: 1.5rem;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            text-align: start;
+        }
+    }
+    &__section2{
+        grid-column: 2/3;
+        color: white;
+        text-align: center;
+        position: relative;
+        margin-top: 5vh;
+
+        &__address{
+            margin-top: 4vh;
+            margin-left: 4vw;
+            font-size: 1.5rem;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            text-align: start;
+        }
+    }
+    &__section3{
+        grid-column: 4/5;
+        color: white;
+    }
+
+
+    &--icon{
+        padding-right:10px;
+        padding-left:10px;
+        
+
+    }
+    
+}

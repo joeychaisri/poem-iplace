@@ -12,7 +12,6 @@
 
         grid-column: full-start / full-end ;
 
-        height: 90vh;
         background-image: linear-gradient(
             to right bottom ,
             rgba($color-primary,0.15) ,rgba($color-primary, 0.05)),
@@ -147,51 +146,129 @@
 
 .information {
 
-        &__pictures{
-            background-color: $color-primary;
-            grid-column: full-start / col-end 5;
+
+
+        &__content1{
+            // background-color: $color-primary;
+            grid-column: center-start / col-end 5;
             // background-image: linear-gradient(rgba($color-primary,.5) , rgba($color-primary,.5)) , url(../img/back.jpg);
             background-size: cover;
             display: grid;
-            grid-template-rows : repeat(6,1fr);
-            grid-template-columns: repeat(6,1fr);
-            align-items: center;
-            @media only screen and (max-width: $bp-medium){
-                grid-column: 1/-1;
-                padding: 6rem;
+            grid-template-rows : repeat(12,1fr);
+            grid-template-columns: repeat(12,1fr);
+            // align-items: center;
+            // @media only screen and (max-width: $bp-medium){
+            //     grid-column: 1/-1;
+            //     padding: 6rem;
+            // }
+
+            &__header{
+                
+                grid-row: 1 / 2;
+                color: $color-primary;
+                grid-column: 3 / 6;
+                align-self: end;
+                
+   
+            }
+
+            &__subheader{
+                grid-row: 2 / 3;
+                grid-column: 3 / 6;
+                align-self: start;
+            }
+
+            &__box{
+                grid-row: 4/5;
+                grid-column: 3 / 12;
+                font-size: 1.5rem;
             }
     
         }
     
     
-        &__content{
-            background-color: $color-grey-light-1;
-            grid-column: col-start 6 / full-end ;
-            padding: 6rem 8vw;
-            
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: center;
-            // align-items: flex-start;
-    
+        &__content2{
+            grid-column: col-end 5 / center-end;
+            background-size: cover;
+            grid-template-rows : repeat(12,1fr);
+            grid-template-columns: repeat(12,1fr);
+            // align-items: center;
             display: grid;
-            align-content: center;
-            justify-items: start;
-    
-            @media only screen and (max-width: $bp-medium){
-                grid-column: 1/-1;
-                grid-row: 5/6;
-            
+
+            &__header{
+                
+                grid-row: 1 / 2;
+                color: $color-primary;
+                grid-column: 2 / 5;
+                align-self: end;
+                
+   
             }
+
+            &__subheader{
+                grid-row: 2 / 3;
+                grid-column: 2 / 5;
+                align-self: start;
+            }
+
+            &__box{
+                grid-row: 4/5;
+                grid-column: 2 / 11;
+                border:1px solid black;
+                font-size: 1.5rem;
+                margin-bottom: 4rem;
+            }
+
         }
     
         &__text{
             font-size: 1.5rem;
             font-style: italic;
-            margin-bottom: 4rem;
         }
     
 
+
+}
+
+.carousel{
+    grid-column: full-start / full-end ;
+    background-color: $color-grey-light-2;
+}
+
+.news{
+    grid-column: full-start / full-end ;
+    // background-color: $color-grey-light-2;
+}
+
+.sponsor{
+    grid-column: full-start / full-end ;
+    // background-color: $color-grey-light-2;
+}
+
+
+.news{
+
+    position: relative;
+
+    &__header{
+        font-size: 3rem;
+       text-align: center;
+    }
+
+    &__button{
+        // width: 10%;
+        position: absolute; 
+        // left : 100px;
+        top: 0px;
+        right: 150px;
+    }
+
+    &__no-news{
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
 }
 
