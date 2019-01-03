@@ -10,22 +10,22 @@ class Header extends React.Component {
                 <a href="/">IPLACE</a>
             </li>
             <li className="header__menu-main"> 
-                <a href="/#" className=" heading-3">ABOUT US</a>
+                <a href="/#" >ABOUT US</a>
             </li>
             <li className="header__menu-main"> 
-                <a href="/#" className="heading-3">DIRECTORY</a>
+                <a href="/#" >DIRECTORY</a>
             </li>
             <li className="header__menu-main"> 
-                <a href="/service-retail" className="heading-3">RETAIL SPACE</a>
+                <a href="/service-retail" >RETAIL SPACE</a>
             </li>
             <li className="header__menu-main"> 
-                <a href="/#" className="heading-3">GALLERY</a>
+                <a href="/#" >GALLERY</a>
             </li>
             <li className="header__menu-main"> 
-                <a href="/#" className="heading-3">NEWS</a>
+                <a href="/news" >NEWS</a>
             </li>
             <li className="header__menu-main"> 
-                <a href="/#" className="heading-3">CONTACT US</a>
+                <a href="/#" >CONTACT US</a>
             </li>
         </header>
     );

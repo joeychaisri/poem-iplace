@@ -7,10 +7,20 @@
 
     &__logo{
         margin: auto;
+        list-style-type: none;
+        &:hover a{
+            color: $color-primary;
+        }
     }
 
     &__menu-main{
         list-style-type: none;
+        text-align: center;
+        font-size: 1.5rem;
+
+        &:hover a{
+            color: $color-primary;
+        }
     }
 
     
