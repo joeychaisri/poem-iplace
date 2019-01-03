@@ -35,14 +35,21 @@
     &__section3{
         grid-column: 4/5;
         color: white;
+        margin-top: 6vh;
+    }
+
+    &--lang{
+        margin-top: 20px;
+        font-size: 2rem;
     }
 
 
-    &--icon{
-        padding-right:10px;
-        padding-left:10px;
-        
 
-    }
     
+}
+
+.icon-space{
+    padding-right:1rem;
+    // color : white;
+    // padding-left:10px;
 }

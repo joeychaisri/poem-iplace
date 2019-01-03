@@ -4,7 +4,11 @@ class Header extends React.Component {
     return (
         <header className="header">
 
-        <h3 className="heading-1 header__logo" > IPLACE </h3>
+        {/* <h3 className="heading-1 header__logo" > IPLACE </h3> */}
+
+            <li className="heading-1 header__logo"> 
+                <a href="/">IPLACE</a>
+            </li>
             <li className="header__menu-main"> 
                 <a href="/#" className=" heading-3">ABOUT US</a>
             </li>
@@ -12,7 +16,7 @@ class Header extends React.Component {
                 <a href="/#" className="heading-3">DIRECTORY</a>
             </li>
             <li className="header__menu-main"> 
-                <a href="/#" className="heading-3">RETAIL SPACE</a>
+                <a href="/service-retail" className="heading-3">RETAIL SPACE</a>
             </li>
             <li className="header__menu-main"> 
                 <a href="/#" className="heading-3">GALLERY</a>

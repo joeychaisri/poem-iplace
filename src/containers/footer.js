@@ -27,30 +27,35 @@ class Footer extends React.Component {
 
         <section className="footer__section3">
 
-        <a className="btn btn--white btn--animated ">CAREER</a>
+        <a className="btn btn--white btn--animated">CAREER</a>
 
-        <div className="footer--lang">
-            <a className="">English</a>
-            <a className="footer-lang">Thai</a>
+        <div className="footer--lang" style={{marginTop: "30px"}}>
+            <a >English</a>
+            <a style={{ paddingLeft: '10px' }}>|</a>
+            <a style={{ paddingLeft: '10px' }}>ภาษาไทย</a>
         </div>
         
-        <div className="footer--icon"> 
-        <span style={{fontSize: "3em"}}>
-            <i class="fab fa-facebook"></i>
+        <div className="footer--icon" style={{marginTop: "10px"}}> 
+        <span className="icon-space" style={{fontSize: "3em"}}>
+            <i class="fab fa-facebook icon-space"></i>
         </span>
 
 
-        <span style={{fontSize: "3em"}}>
-            <i class="fab fa-twitter"></i>
+        <span className="icon-space" style={{fontSize: "3em"}}>
+            <i class="fab fa-twitter icon-space"></i>
         </span>
 
-        <span style={{fontSize: "3em"}}>
-            <i class="fab fa-instagram"></i>
+        <span className="icon-space" style={{fontSize: "3em"}}>
+            <i class="fab fa-instagram icon-space"></i>
         </span>
 
-        <span style={{fontSize: "3em"}}>
-            <i class="fab fa-youtube"></i>
+        <span className="icon-space" style={{fontSize: "3em"}}>
+            <i class="fab fa-youtube icon-space"></i>
         </span>
+        </div>
+
+        <div className="copyright" style={{marginTop: "25px" , fontSize: "1.2em"}}>
+        Copyright © 2018 iPLACE. All Rights Reserved.
         </div>
 
 

@@ -1,0 +1,36 @@
+.retail-banner{
+
+
+
+    background-image: linear-gradient(
+        to right bottom ,
+        rgba($color-primary,0.15) ,rgba($color-primary, 0.05)),
+         url(../img/iplace_lat_banner.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.retail-space{
+
+    position: relative;
+
+    &-header{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+
+    &-paragraph{
+        font-size: 1.3rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+
+    &-button{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate( -50%, -50%);
+    }
+}

@@ -21,6 +21,7 @@ $bp-large: 62.5em; // 1000px / 16
 $bp-medium: 62.5em; //800px / 16
 $bp-small: 37.5em;
 
+
 *,
 *::before,
 *::after{
@@ -84,7 +85,12 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 35vh;
+}
 
- 
+.service-retail{
 
+    display:grid;
+
+    grid-template-rows: 30vh 40vh 30vh;
+    
 }
