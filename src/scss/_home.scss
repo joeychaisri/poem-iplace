@@ -209,9 +209,16 @@
             &__box{
                 grid-row: 4/5;
                 grid-column: 2 / 11;
-                border:1px solid black;
+                border:3px solid $color-primary;
                 font-size: 1.5rem;
                 margin-bottom: 4rem;
+
+                
+            }
+
+            &__boxheader{
+                font-size: 1.6rem;
+                color: $color-primary;
             }
 
         }
@@ -230,18 +237,15 @@
     background-color: $color-grey-light-2;
 }
 
-.news{
-    grid-column: full-start / full-end ;
-    // background-color: $color-grey-light-2;
-}
-
 .sponsor{
     grid-column: full-start / full-end ;
     // background-color: $color-grey-light-2;
 }
 
 
-.news{
+.home_news{
+
+    grid-column: full-start / full-end ;
 
     position: relative;
 
