@@ -65,7 +65,7 @@ body{
 .home{
 
         display: grid;
-        grid-template-rows: 90vh min-content 80vh 35vh 30vh 30vh ;
+        grid-template-rows: 90vh min-content 80vh 35vh 30vh 40vh ;
         // grid-template-columns: [full-start] minmax(6rem,1fr) [center-start] repeat(10, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem,1fr) [full-end];
         grid-template-columns: [full-start] minmax(6rem,1fr) [center-start] repeat(10, [col-start] 1fr [col-end]) [center-end] minmax(6rem,1fr) [full-end];
     
