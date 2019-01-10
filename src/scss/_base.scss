@@ -102,3 +102,15 @@ body{
     grid-template-rows: 35vh 40vh;
     
 }
+
+.aboutus{
+    display: grid;
+    grid-template-rows: 35vh 40vh 30vh 70vh 45vh 35vh 30vh ;
+    grid-template-columns: [full-start] 1fr  1fr [full-end];
+}
+
+.contactus{
+    display: grid;
+    grid-template-rows: 60vh 70vh;
+    grid-template-columns: [full-start] 50vw  50vw [full-end];
+}

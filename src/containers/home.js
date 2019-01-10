@@ -1,6 +1,5 @@
 import React from 'react'
 import Slider from "react-slick";
-import Carousel from 'nuka-carousel';
 import "../../node_modules/slick-carousel/slick/slick-theme.scss"
 import "../../node_modules/slick-carousel/slick/slick.scss"
 

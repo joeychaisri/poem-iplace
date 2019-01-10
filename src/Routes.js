@@ -6,6 +6,7 @@ import News from "./containers/news"
 import AboutUs from "./containers/aboutus"
 import Header from "./containers/header"
 import Footer from "./containers/footer"
+import ContactUs from "./containers/contactus"
 
 
 const Routes = props => {
@@ -17,6 +18,8 @@ const Routes = props => {
       <Route exact path="/service-retail" render={() =>  <div><Header/><ServiceRetail/><Footer/></div> } />
       <Route exact path="/news" render={() =>  <div><Header/><News/><Footer/></div> } />
       <Route exact path="/aboutus" render={() =>  <div><Header/><AboutUs/><Footer/></div> } />
+      <Route exact path="/contactus" render={() =>  <div><Header/><ContactUs/><Footer/></div> } />
+
 
       
 
