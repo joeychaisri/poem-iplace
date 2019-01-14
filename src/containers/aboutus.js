@@ -140,21 +140,53 @@ class aboutus extends React.Component {
                 <h2 className="aboutus-amenities-heading"> <span className="aboutus-amenities-heading-span">อำนวยความสะดวกใน</span> ไอเพลส ลาดกระบัง </h2>
                 <div className="aboutus-amenities-list">
                     <div className="aboutus-amenities-list-group">
-                        <div><i class="fas fa-wheelchair"></i>ที่จอดรถคนพิการ</div>
-                        <div><i class="fas fa-parking"></i>ที่จอดรถ</div>
-                        <div><i class="fas fa-bicycle"></i>เส้นทางจักรยาน</div>
+                        <div><i class="fas fa-fw fa-wheelchair"></i>ที่จอดรถคนพิการ</div>
+                        <div><i class="fas fa-fw fa-parking"></i>ที่จอดรถ</div>
+                        <div><i class="fas fa-fw fa-bicycle"></i>เส้นทางจักรยาน</div>
                     </div>
                     <div className="aboutus-amenities-list-group">
-                        <div><i class="fas fa-wifi"></i>อินเตอร์เน็ต</div>
-                        <div><i class="fas fa-sign"></i>แผนผังอาคาร</div>
-                        <div><i class="fas fa-baby"></i>ห้องเปลี่ยนผ้าอ้อม</div>
+                        <div><i class="fas fa-fw fa-wifi"></i>อินเตอร์เน็ต</div>
+                        <div><i class="fas fa-fw fa-sign"></i>แผนผังอาคาร</div>
+                        <div><i class="fas fa-fw fa-baby"></i>ห้องเปลี่ยนผ้าอ้อม</div>
                     </div>
                     <div className="aboutus-amenities-list-group">
-                        <div><i class="fas fa-toilet"></i>ห้องน้ำ</div>
-                        <div><i class="fas fa-credit-card"></i>เอทีเอ็ม</div>
-                        <div><i class="fas fa-bus"></i>ป้ายรถประจำทาง</div>
+                        <div><i class="fas fa-fw fa-toilet"></i>ห้องน้ำ</div>
+                        <div><i class="fas fa-fw fa-credit-card"></i>เอทีเอ็ม</div>
+                        <div><i class="fas fa-fw fa-bus"></i>ป้ายรถประจำทาง</div>
                     </div>
                 </div>
+            </div>
+
+            <div class="aboutus-carousel2" style={{marginTop: '80px'}}>
+                <Slider  {...settings}>
+                    <div>
+                        <h3>1</h3>
+                    </div>
+                    <div>
+                        <h3>2</h3>
+                    </div>
+                    <div>
+                        <h3>3</h3>
+                    </div>
+                    <div>
+                        <h3>4</h3>
+                    </div>
+                    <div>
+                        <h3>5</h3>
+                    </div>
+                    <div>
+                        <h3>6</h3>
+                    </div>
+                    <div>
+                        <h3>7</h3>
+                    </div>
+                    <div>
+                        <h3>8</h3>
+                    </div>
+                    <div>
+                        <h3>9</h3>
+                    </div>
+                </Slider>
             </div>
 
 

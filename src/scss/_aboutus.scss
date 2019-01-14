@@ -156,9 +156,15 @@
         }
         &-list i{
             font-size: 3rem;
-            padding-left: 25px;
-            padding-right: 25px;
+            margin-right: 15px;
+    
+            
         }
 
+    }
+
+    &-carousel2{
+        grid-row : 7 / 8; 
+        grid-column: 1 / span 2;
     }
 }
