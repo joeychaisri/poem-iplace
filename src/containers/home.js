@@ -104,7 +104,7 @@ class Home extends React.Component {
              <h4 class="information__content1__header heading-2">ไอเพลส</h4>
              <h4 class="information__content1__subheader heading-2">ลาดกระบัง</h4>
              <div class="information__content1__box" style={{marginTop:"30px"}}>
-                <p>อมมูนิตี้มอลล์ ใจกลางย่านธุรกิจ ภายใต้นิยามของการใช้ชีวิตสมัยใหม่ ที่ต้องการหลีกหนีความวุ่นวายพร้อมสิ่งอำนวยความสะดวกสบายครบวงจร ทางเลือกของคนเมืองที่จะเติมเต็มชีวิตคุณ ไอเพลส พาร์ค เป็นจุดนัดพบ ช้อปปิ้ง สังสรรค์ ในบรรยากาศสบายๆ เพราะเราเชื่อว่า การพักผ่อนที่ดีย่อมสร้างสุขภาพจิตที่ดี เช่นเดียวกับ ไอเพลส พาร์ค ที่มีความต้องการให้คุณได้พบกับสิ่งที่ดีที่เราต้องการมอบให้ เพราะคุณคือคนพิเศษที่เราพร้อมดูแลด้วยความใส่ใจ รวมถึงเป็นสถานที่ Hang Out แห่งใหม่ ก้าวสู่โลกแห่งความสุขและความผ่อนคลาย ตั้งอยู่บนพื้นที่ทำเลทองด้านหน้านิคมอุตสาหกรรมลาดกระบัง ติดถนนฉลองกรุง ซึ่งเป็นอาคาร 3 ชั้น แบ่งออกเป็น พื้นที่ชั้นที่ 1 และ 2 ประกอบไปด้วย ซุปเปอร์มาร์เก็ต ร้านอาหาร ธนาคาร ศูนย์ไอที และอื่นๆ ในส่วนพื้นที่ชั้น 3 ถูกจัดสรรให้เป็นพื้นที่บริการภายใต้ ARYU Executive Residence ที่พักรูปแบบใหม่ สไตล์มินิมอลสำหรับผู้บริหาร นักธุรกิจ และนักท่องเที่ยวที่ต้องการความสะดวกสบายในทุกๆด้าน ไม่ว่าจะเป็นการรับประทานอาหาร ช้อปปิ้ง หรือรวมไปถึงการทำธุรกรรมต่างๆ ในด้านของการเดินทางมีความสะดวก รวดเร็ว อยู่ใกล้สนามบินนานาชาติสุวรรณภูมิ นิคมอุตสาหกรรมลาดกระบัง มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง และมอเตอร์เวย์หมายเลข 7 กล่าวได้ว่าผู้ที่เข้ามาใช้บริการ ไอเพลส พาร์ค ลาดกระบัง แห่งนี้จะได้รับความสะดวกสบายและการบริการที่ครอบคลุมกับความต้องการในการใช้ชีวิตประจำวันได้อย่างแน่นอน</p>
+                <p>คอมมูนิตี้มอลล์ ใจกลางย่านธุรกิจ ภายใต้นิยามของการใช้ชีวิตสมัยใหม่ ที่ต้องการหลีกหนีความวุ่นวายพร้อมสิ่งอำนวยความสะดวกสบายครบวงจร ทางเลือกของคนเมืองที่จะเติมเต็มชีวิตคุณ ไอเพลส พาร์ค เป็นจุดนัดพบ ช้อปปิ้ง สังสรรค์ ในบรรยากาศสบายๆ เพราะเราเชื่อว่า การพักผ่อนที่ดีย่อมสร้างสุขภาพจิตที่ดี เช่นเดียวกับ ไอเพลส พาร์ค ที่มีความต้องการให้คุณได้พบกับสิ่งที่ดีที่เราต้องการมอบให้ เพราะคุณคือคนพิเศษที่เราพร้อมดูแลด้วยความใส่ใจ รวมถึงเป็นสถานที่ Hang Out แห่งใหม่ ก้าวสู่โลกแห่งความสุขและความผ่อนคลาย ตั้งอยู่บนพื้นที่ทำเลทองด้านหน้านิคมอุตสาหกรรมลาดกระบัง ติดถนนฉลองกรุง ซึ่งเป็นอาคาร 3 ชั้น แบ่งออกเป็น พื้นที่ชั้นที่ 1 และ 2 ประกอบไปด้วย ซุปเปอร์มาร์เก็ต ร้านอาหาร ธนาคาร ศูนย์ไอที และอื่นๆ ในส่วนพื้นที่ชั้น 3 ถูกจัดสรรให้เป็นพื้นที่บริการภายใต้ ARYU Executive Residence ที่พักรูปแบบใหม่ สไตล์มินิมอลสำหรับผู้บริหาร นักธุรกิจ และนักท่องเที่ยวที่ต้องการความสะดวกสบายในทุกๆด้าน ไม่ว่าจะเป็นการรับประทานอาหาร ช้อปปิ้ง หรือรวมไปถึงการทำธุรกรรมต่างๆ ในด้านของการเดินทางมีความสะดวก รวดเร็ว อยู่ใกล้สนามบินนานาชาติสุวรรณภูมิ นิคมอุตสาหกรรมลาดกระบัง มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง และมอเตอร์เวย์หมายเลข 7 กล่าวได้ว่าผู้ที่เข้ามาใช้บริการ ไอเพลส พาร์ค ลาดกระบัง แห่งนี้จะได้รับความสะดวกสบายและการบริการที่ครอบคลุมกับความต้องการในการใช้ชีวิตประจำวันได้อย่างแน่นอน</p>
 
              </div>     
         </div>
@@ -136,8 +136,12 @@ class Home extends React.Component {
         </div>
         </div>
 
-        <div class="carousel">
-        
+        <div class="home-travel">
+        <div style={{textAlign: 'center'}}><img src="/../img/t1.png" alt="t1" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>12.6<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.4rem'}}>Suvarnabhumi International Airport</span></div>
+        <div style={{textAlign: 'center'}}><img src="/../img/t2.png" alt="t2" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>0.5<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.4rem'}}>Lat Krabang Industrial Estate</span></div>
+        <div style={{textAlign: 'center'}}><img src="/../img/t3.png" alt="t3" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>12.3<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.4rem'}}>Airport Rail Link (Lat Krabang Station)</span></div>
+        <div style={{textAlign: 'center'}}><img src="/../img/t4.png" alt="t4" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>9.5<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.4rem'}}>Motorway no.7</span></div>
+        <div style={{textAlign: 'center'}}><img src="/../img/t5.png" alt="t5" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>6.7<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.4rem'}}>King Mongkut's Institute of Technology Ladkrabang</span></div>
         </div>
 
         <div class="home_news">
@@ -146,8 +150,8 @@ class Home extends React.Component {
         <p className="home_news__no-news heading-4">No news at this time.</p>
         </div>
 
-        <div class="sponsor">
-        <Slider {...settings}>
+        <div class="home-sponsor">
+        <Slider {...settings} class="home-sponsor-carousel">
         <div>
             <h3>1</h3>
           </div>

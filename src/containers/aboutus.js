@@ -157,37 +157,14 @@ class aboutus extends React.Component {
                 </div>
             </div>
 
-            <div class="aboutus-carousel2" style={{marginTop: '80px'}}>
-                <Slider  {...settings}>
-                    <div>
-                        <h3>1</h3>
-                    </div>
-                    <div>
-                        <h3>2</h3>
-                    </div>
-                    <div>
-                        <h3>3</h3>
-                    </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
-                    <div>
-                        <h3>7</h3>
-                    </div>
-                    <div>
-                        <h3>8</h3>
-                    </div>
-                    <div>
-                        <h3>9</h3>
-                    </div>
-                </Slider>
-            </div>
+
+            <div class="aboutus-travel">
+        <div style={{textAlign: 'center'}}><img src="/../img/t1.png" alt="t1" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>12.6<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.2rem'}}>Suvarnabhumi International Airport</span></div>
+        <div style={{textAlign: 'center'}}><img src="/../img/t2.png" alt="t2" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>0.5<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.2rem'}}>Lat Krabang Industrial Estate</span></div>
+        <div style={{textAlign: 'center'}}><img src="/../img/t3.png" alt="t3" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>12.3<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.2rem'}}>Airport Rail Link (Lat Krabang Station)</span></div>
+        <div style={{textAlign: 'center'}}><img src="/../img/t4.png" alt="t4" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>9.5<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.2rem'}}>Motorway no.7</span></div>
+        <div style={{textAlign: 'center'}}><img src="/../img/t5.png" alt="t5" className=""/><span style={{display:'block' , fontSize:'4rem' , fontWeight:'450'}}>6.7<span style={{color:'#eb6b00',fontSize:'2rem'}}>km</span></span><span style={{fontSize:'1.2rem'}}>King Mongkut's Institute of Technology Ladkrabang</span></div>
+        </div>
 
 
 

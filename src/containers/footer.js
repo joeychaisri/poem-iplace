@@ -27,7 +27,7 @@ class Footer extends React.Component {
 
         <section className="footer__section3">
 
-        <a className="btn btn--white btn--animated">CAREER</a>
+        <a className="btn btn--white btn--animated" style={{color:'#eb6b00'}}>CAREER</a>
 
         <div className="footer--lang" style={{marginTop: "30px"}}>
             <a >English</a>

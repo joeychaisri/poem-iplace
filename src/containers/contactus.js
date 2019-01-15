@@ -49,27 +49,27 @@ class news extends React.Component {
                     <form class="contactus__content1__box__form">
                         <div class="contactus__content1__box__form__line1">
                         <label class="contactus__content1__box__form__line1__label" style={{ display : 'block' }} >Name:  </label>
-                        <input class="contactus__content1__box__form__line1__input" type="text" name="name" />
+                        <input class="input contactus__content1__box__form__line1__input" type="text" name="name" />
                         </div>
                         
                         <div class="contactus__content1__box__form__line2">
                         <label class="contactus__content1__box__form__line2__label"style={{}} >Email:  </label>
-                        <input class="contactus__content1__box__form__line2__input"  type="text" name="name" />
+                        <input class="input contactus__content1__box__form__line2__input"  type="text" name="name" />
                         </div>
 
                         <div class="contactus__content1__box__form__line2">
                         <label class="contactus__content1__box__form__line2__label"style={{}} >Tel No.:  </label>
-                        <input class="contactus__content1__box__form__line2__input"  type="text" name="name" />
+                        <input class="input contactus__content1__box__form__line2__input"  type="text" name="name" />
                         </div>
                         
                         <div class="contactus__content1__box__form__line3">
                             <label class="contactus__content1__box__form__line3__label" style={{ display : 'block' }} >Subject:  </label>
-                            <input class="contactus__content1__box__form__line3__input"   type="text" name="name" />
+                            <input class="input contactus__content1__box__form__line3__input"   type="text" name="name" />
                         </div>
                      
                         <div class="contactus__content1__box__form__line4">
                             <label class="contactus__content1__box__form__line4__label" style={{ display : 'block' }} >Message:  </label>
-                            <input class="contactus__content1__box__form__line4__input" style={{}} type="text" name="name" />
+                            <input class="input contactus__content1__box__form__line4__input" style={{}} type="text" name="name" />
                         </div>
                         
                         <a className="btn btn--animated contactus__content1__box__form__line5" style={{width: '100%'}}>SEND</a>

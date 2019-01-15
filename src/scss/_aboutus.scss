@@ -14,6 +14,14 @@
 .aboutus{
     position: relative;
 
+    &-travel{
+        grid-column: full-start / full-end ;
+        background-color: $color-grey-light-2;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
     &-map{
         grid-row: 5/6;
         grid-column: 1/3;
@@ -38,7 +46,7 @@
     
     
         &-paragraph{
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             margin-left: 20rem;
             margin-right: 20rem;
         }
@@ -88,7 +96,6 @@
         background-size: cover;
         grid-template-rows : repeat(12,1fr);
         grid-template-columns: repeat(12,1fr);
-        // align-items: center;
         display: grid;
 
         &__header{
@@ -129,7 +136,7 @@
         grid-column: 1 /3;
 
         &-heading{
-            margin-top: 30px;
+            margin-top: 50px;
             text-align: center;
             font-size: 3rem;
             margin-bottom: 30px;
@@ -144,9 +151,11 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
-            font-size: 2.2rem;
+            font-size: 2rem;
+            font-weight: 200;
 
             &-group{
+                margin-top: 20px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;

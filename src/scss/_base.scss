@@ -4,8 +4,8 @@ $color-primary-dark: #B28451;
 
 $color-secondary: #101d2c;
 
-$color-grey-light-1: #f9f7f6;
-$color-grey-light-2: #aaa;
+$color-grey-light-1: #f2f2f2;
+$color-grey-light-2: #e6e6e6;
 
 $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
@@ -18,8 +18,8 @@ $font-display: 'Josefin Sans', sans-serif;
 //responsive breakpoints
 $bp-largest: 75em ; //1200px
 $bp-large: 62.5em; // 1000px / 16
-$bp-medium: 62.5em; //800px / 16
-$bp-small: 37.5em;
+$bp-medium: 50em; //800px / 16
+$bp-small: 37.5em; //600/16
 
 
 *,
@@ -37,7 +37,7 @@ html{
 
     @media only screen and (max-width: $bp-largest){
         font-size: 50%;
-        
+
     }
 
     a {
@@ -62,10 +62,16 @@ body{
 
 }
 
+.input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 .home{
 
         display: grid;
-        grid-template-rows: 90vh min-content 80vh 35vh 30vh 40vh ;
+        grid-template-rows: 90vh min-content 90vh 35vh 30vh 30vh ;
         // grid-template-columns: [full-start] minmax(6rem,1fr) [center-start] repeat(10, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem,1fr) [full-end];
         grid-template-columns: [full-start] minmax(6rem,1fr) [center-start] repeat(10, [col-start] 1fr [col-end]) [center-end] minmax(6rem,1fr) [full-end];
     
@@ -73,10 +79,11 @@ body{
         //     grid-template-rows:6rem 80vh min-content 40vw  repeat(3,min-content);
         //     grid-template-columns: [full-start] minmax(6rem,1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem,1fr) [full-end];
         // }
-        // @media only screen and (max-width: $bp-medium){
-        //     grid-template-rows:6rem calc(100vh - 6rem);
-    
-        // }
+
+        @media only screen and (max-width: $bp-small){
+            grid-template-rows:75vh 220vh 90vh 90vh 80vh 50vh;
+            grid-template-columns: [full-start] minmax(6rem,1fr) [center-start] repeat(10, [col-start] 1fr [col-end]) [center-end] minmax(6rem,1fr) [full-end];
+        }
     
 }
 
@@ -85,6 +92,13 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 35vh;
+
+    @media only screen and (max-width: $bp-small){
+        grid-template-rows:25vh 30vh;
+        grid-template-columns: 1fr;
+    }
+
+
 }
 
 .service-retail{
@@ -105,12 +119,12 @@ body{
 
 .aboutus{
     display: grid;
-    grid-template-rows: 35vh 40vh 30vh 70vh 45vh 35vh 30vh ;
+    grid-template-rows: 35vh 40vh 30vh 90vh 45vh 40vh 30vh 10vh;
     grid-template-columns: [full-start] 1fr  1fr [full-end];
 }
 
 .contactus{
     display: grid;
-    grid-template-rows: 60vh 70vh;
+    grid-template-rows: 60vh 90vh;
     grid-template-columns: [full-start] 50vw  50vw [full-end];
 }

@@ -15,6 +15,13 @@
             padding-right: 5rem;
             text-align: start;
         }
+
+        @media only screen and (max-width: $bp-small){
+            display: none;
+         }
+
+
+
     }
     &__section2{
         grid-column: 2/3;
@@ -22,6 +29,12 @@
         text-align: center;
         position: relative;
         margin-top: 5vh;
+
+        @media only screen and (max-width: $bp-small){
+            grid-row:1/2;
+            grid-column: 1/-1;
+            
+         }
 
         &__address{
             margin-top: 4vh;
@@ -36,6 +49,11 @@
         grid-column: 4/5;
         color: white;
         margin-top: 6vh;
+        @media only screen and (max-width: $bp-small){
+            grid-row:2/3;
+            grid-column: 1/-1;
+            text-align: center;
+         }
     }
 
     &--lang{
