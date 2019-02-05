@@ -58,10 +58,6 @@ class Footer extends React.Component {
         Copyright © 2018 iPLACE. All Rights Reserved.
         </div>
 
-
-        
-
-
         </section>
 
 
