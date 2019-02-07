@@ -11,7 +11,7 @@ class Header extends React.Component {
                 <a href="/aboutus" >ABOUT US</a>
             </li>
             <li className="header__menu-main"> 
-                <a href="/#" >DIRECTORY</a>
+                <a href="/directory" >DIRECTORY</a>
             </li>
             <li className="header__menu-main"> 
                 <a href="/service-retail" >RETAIL SPACE</a>

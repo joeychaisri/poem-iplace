@@ -20,6 +20,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     &-map{
@@ -49,7 +50,15 @@
             font-size: 1.5rem;
             margin-left: 20rem;
             margin-right: 20rem;
+
+            @media only screen and (max-width: $bp-small){
+                grid-template-rows:25vh 70vh 30vh 30vh;
+                grid-template-columns: [full-start] 1fr  1fr [full-end];
+                margin-left: 4rem;
+                margin-right: 4rem;
+            }
         }
+        
     }
 
     &-carousel{
@@ -61,7 +70,10 @@
 
         grid-row : 4 / 5; 
         grid-column: 1 / 2;
-        
+        @media only screen and (max-width: $bp-small){
+            grid-row : 3 / 4; 
+            grid-column: 1 / -1;
+        }
         // grid-column: center-start / col-end 5;
         background-size: cover;
         display: grid;
@@ -74,18 +86,28 @@
             color: $color-primary;
             grid-column: 3 / 6;
             align-self: end;
+            @media only screen and (max-width: $bp-small){
+                grid-column: 2 / 10;
+                margin-top: 5rem;
+            }
         }
 
         &__subheader{
             grid-row: 2 / 3;
             grid-column: 3 / 6;
             align-self: start;
+            @media only screen and (max-width: $bp-small){
+                grid-column: 2 / 10;
+            }
         }
 
         &__box{
             grid-row: 4/5;
             grid-column: 3 / 12;
             font-size: 1.5rem;
+            @media only screen and (max-width: $bp-small){
+                grid-column: 2 / 12;
+            }
         }
 
     }
@@ -98,12 +120,22 @@
         grid-template-columns: repeat(12,1fr);
         display: grid;
 
+        @media only screen and (max-width: $bp-small){
+            grid-row : 4 / 5; 
+            grid-column: 1 / -1;
+        }
+
         &__header{
             
             grid-row: 1 / 2;
             color: $color-primary;
             grid-column: 2 / 5;
             align-self: end;
+
+            @media only screen and (max-width: $bp-small){
+                grid-column: 2/-1;
+                // grid-row : 4/5;
+            }
             
 
         }
