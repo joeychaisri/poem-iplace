@@ -71,7 +71,7 @@
         font-weight: 1000;
         // letter-spacing: 1rem;
         animation: moveInRight 1s ease-out;
-       
+    
     }
 }
 
@@ -84,7 +84,11 @@
 }
 
 .text-primary{
-    color: $color-primary;
+    color: $color-primary !important;
+}
+
+.text-normal{
+    font-size: 1.4rem;
 }
 
 .btn{

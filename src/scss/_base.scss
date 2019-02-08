@@ -22,6 +22,12 @@ $bp-medium: 50em; //800px / 16
 $bp-small: 37.5em; //600/16
 
 
+.res-img{
+    width: 100%;
+    height: auto;
+}
+
+
 *,
 *::before,
 *::after{
@@ -144,7 +150,7 @@ body{
 
 .directory{
     display: grid;
-    grid-template-rows: 35vh 50vh 50vh;
+    grid-template-rows: 35vh 50vh min-content;
     grid-template-columns: [full-start] 50vw  50vw [full-end];
 
     @media only screen and (max-width: $bp-small){
