@@ -145,6 +145,10 @@ body{
     grid-template-rows: 60vh 90vh;
     grid-template-columns: [full-start] 50vw  50vw [full-end];
 
+    @media only screen and (max-width: $bp-small){
+        grid-template-rows: 60vh 60vh 70vh; 
+    }
+
     
 }
 
