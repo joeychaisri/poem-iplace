@@ -1,0 +1,32 @@
+.gallery-banner{
+    grid-column: 1/-1;
+    background-image: linear-gradient(
+        to right bottom ,
+        rgba($color-primary,0.15) ,rgba($color-primary, 0.05)),
+        url(../img/iplace_lat_banner.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.gallery-head{
+
+    position: relative;
+    grid-column: 1/-1;
+
+    &-header{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+
+    &-paragraph{
+        font-size: 1.3rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
+        @media only screen and (max-width: $bp-small){
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+    }
+}
