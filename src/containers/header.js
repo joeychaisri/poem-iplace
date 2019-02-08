@@ -1,29 +1,37 @@
 import React from 'react'
+import {
+    BrowserRouter as Router,
+    Route,
+    Link,
+    Redirect,
+    withRouter
+  } from "react-router-dom";
+  
 class Header extends React.Component {
   render () {
     return (
         <header className="header">
         <ul class="header-container">
             <li className="heading-1 header__logo"> 
-                <a href="/">IPLACE<span style={{display:'block' , fontSize:'1.5rem',textAlign:'center',fontWeight:'900'}}>LAT KRABANG</span></a>
+                <Link to="/">IPLACE<span style={{display:'block' , fontSize:'1.5rem',textAlign:'center',fontWeight:'900'}}>LAT KRABANG</span></Link>
             </li>
             <li className="header__menu-main"> 
-                <a href="/aboutus" >ABOUT US</a>
+                <Link to="/aboutus">ABOUT US</Link>
             </li>
             <li className="header__menu-main"> 
-                <a href="/directory" >DIRECTORY</a>
+                <Link to="/directory">DIRECTORY</Link>
             </li>
             <li className="header__menu-main"> 
-                <a href="/service-retail" >RETAIL SPACE</a>
+                <Link to="/service-retail" >RETAIL SPACE</Link>
             </li>
             <li className="header__menu-main"> 
-                <a href="/#" >GALLERY</a>
+                <Link to="/gallery" >GALLERY</Link>
             </li>
             <li className="header__menu-main"> 
-                <a href="/news" >NEWS</a>
+                <Link to="/news" >NEWS</Link>
             </li>
             <li className="header__menu-main"> 
-                <a href="/contactus" >CONTACT US</a>
+                <Link to="/contactus" >CONTACT US</Link>
             </li>
             <div class="header-group-dropdown">
             <div class="dropdown">
