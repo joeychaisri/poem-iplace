@@ -148,8 +148,6 @@ body{
     @media only screen and (max-width: $bp-small){
         grid-template-rows: 60vh 60vh 70vh; 
     }
-
-    
 }
 
 .directory{
@@ -164,7 +162,7 @@ body{
 
 .gallery{
     display: grid;
-    grid-template-rows: 35vh 40vh 30vh;
+    grid-template-rows: 35vh 30vh 30vh;
     grid-template-columns: [full-start] 50vw  50vw [full-end];
 
     // @media only screen and (max-width: $bp-small){
