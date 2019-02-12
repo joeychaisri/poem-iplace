@@ -146,7 +146,7 @@ body{
     grid-template-columns: [full-start] 50vw  50vw [full-end];
 
     @media only screen and (max-width: $bp-small){
-        grid-template-rows: 60vh 60vh 70vh; 
+        grid-template-rows: 60vh 75vh 100vh; 
     }
 }
 
@@ -162,11 +162,11 @@ body{
 
 .gallery{
     display: grid;
-    grid-template-rows: 35vh 30vh 30vh;
+    grid-template-rows: 35vh 30vh 70vh;
     grid-template-columns: [full-start] 50vw  50vw [full-end];
 
-    // @media only screen and (max-width: $bp-small){
-    //     grid-template-rows: 35vh 45vh 45vh;
-    // }
+    @media only screen and (max-width: $bp-small){
+        grid-template-rows: 35vh 45vh 200vh;
+    }
 }
 
