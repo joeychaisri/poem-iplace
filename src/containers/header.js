@@ -6,9 +6,14 @@ import {
     Redirect,
     withRouter
   } from "react-router-dom";
-  
+  import i18n from 'i18next';
+
 class Header extends React.Component {
   render () {
+
+    const changeLanguage = lng => {
+        i18n.changeLanguage(lng);
+    };
     return (
         <header className="header">
         <ul class="header-container">
@@ -49,8 +54,8 @@ class Header extends React.Component {
                     TH/EN
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" onClick={() => changeLanguage('th')} >TH</a>
+                    <a class="dropdown-item" onClick={() => changeLanguage('en')} >ENG</a>
                     <a class="dropdown-item" href="#">Something else here</a>
                 </div>
             </div>
