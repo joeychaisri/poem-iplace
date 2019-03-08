@@ -84,6 +84,7 @@
                 color: $color-primary;
                 grid-column: 3 / 6;
                 align-self: end;
+                
 
                 @media only screen and (max-width: $bp-small){
                     grid-column: 2 / 10;
@@ -93,7 +94,7 @@
             }
             &__subheader{
                 grid-row: 2 / 3;
-                grid-column: 3 / 6;
+                grid-column: 3 / 10;
                 align-self: start;
                 @media only screen and (max-width: $bp-small){
                     grid-column: 2 / 10;
