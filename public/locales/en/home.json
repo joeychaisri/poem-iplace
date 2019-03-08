@@ -1,7 +1,38 @@
 {
   "title": "Welcome to react using react-i18next",
   "content": {
-    "part1": "iPLACE is a community mall in the middle of business district. Under a conceptual of the new lifestyle to escape the strain from the city, we offer one stop service utilities and facilities for your life. iPLACE PARK combines meeting space, shopping space, party space with the environment friendly. We believe a relaxation is good for mental health. Everyone are an exclusive customers. Our professional staffs are standby and be ready to assist you. iPLACE direction are located in front of Lat Krabang Industrial Estate entrance (Nikhom Lat Krabang) on the main road of Chalong Krung. The building consists of 3 floor, on the first floor and second floor are supermarket, restaurants, banks, IT zone, and others. On the third floor, co-working space and meeting space has been prepared to help you growing and continuing your business. Our place located near Suvarnnabhumi airport, King Mongkut's Institute of Technology Ladkrabang, and Motorway no.7 as of it is easy access location from all over the place in Lat Krabang district, iPLACE Park Lat Krabang, our place will continue improve our service to be the best comfort mall which covers the needs of everyday life.",
-    "part2": "Switch language between english and german using buttons above."
+    "part0": {
+      "quotation" : "QUOTATION"
+    },
+    "part1": {
+      "header" : "iPLACE",
+      "subheader" : "LAT KRABANG",
+      "description" : "iPLACE is a community mall in the middle of business district. Under a conceptual of the new lifestyle to escape the strain from the city, we offer one stop service utilities and facilities for your life. iPLACE PARK combines meeting space, shopping space, party space with the environment friendly. We believe a relaxation is good for mental health. Everyone are an exclusive customers. Our professional staffs are standby and be ready to assist you. iPLACE direction are located in front of Lat Krabang Industrial Estate entrance (Nikhom Lat Krabang) on the main road of Chalong Krung. The building consists of 3 floor, on the first floor and second floor are supermarket, restaurants, banks, IT zone, and others. On the third floor, co-working space and meeting space has been prepared to help you growing and continuing your business. Our place located near Suvarnnabhumi airport, King Mongkut's Institute of Technology Ladkrabang, and Motorway no.7 as of it is easy access location from all over the place in Lat Krabang district, iPLACE Park Lat Krabang, our place will continue improve our service to be the best comfort mall which covers the needs of everyday life."
+    },
+    "part2": {
+      "header" : "iPLACE",
+      "subheader" : "MALL",
+      "boxheader" : "Address:",
+      "iplace": "iPLACE Park",
+      "address": "Chalongkrung 31, 299/1 Soi Lat Krabang 52, Lamplatiu, Khet Lat Krabang, Krung Thep Maha Nakhon 10520",
+      "googlemap": "GET DIRECTION",
+      "tellno" : "TELEPHONE",
+      "call": "+66 2 360 5300-1, +66 81 947 5863",
+      "openclose":"OPERATION HOURS",
+      "worktime" : "Everyday 10:00 - 22:00",
+      "aboutus" : "ABOUT US"
+    },
+    "part3": {
+      "pic1" : "Suvarnabhumi International Airport",
+      "pic2" : "Lat Krabang Industrial Estate",
+      "pic3" : "Airport Rail Link (Lat Krabang Station)",
+      "pic4" : "Motorway no.7",
+      "pic5" : "King Mongkut's Institute of Technology Ladkrabang"
+    },
+    "part4": {
+      "newsheader" : "iPLACENEWS & ACTIVITIES",
+      "newsbutton" : "SEE ALL NEWS",
+      "news" : "No news at this time."
+    }
   }
 }
