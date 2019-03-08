@@ -36,73 +36,47 @@ class Home extends React.Component {
 
 
         <section className="features">
-            <div className="feature">
-                <img src="img/house-1.jpeg" alt="House 1" className="feature__img"/>
-
-                <h5 className="feature__name">SHOP</h5>
-                <div className="feature__location">
-                        <p>USA</p>
+        <div class="container">
+                <div class="row">
+                        <div class="col-lg-4 col-sm-12 mt-5">       
+                                <div class="card card-border-orange">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style={{fontSize: '2rem'}}>SHOP</h5>
+                                        <hr style={{height:'2px', border:'none',color:'#eb6b00',backgroundColor:'#eb6b00',width:'25px'}} />
+                                        <p class="card-text text-primary" style={{fontSize: '2rem',fontWeight: 'bolder'}}>CONVENIENCE <span style={{display:'block'}}>STORE</span></p>
+                                        
+                                        </div>
+                                        <img className="res-img" src={require('../img/feature1.jpg')}  alt="fireSpot"/>
+                                        
+                                </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 mt-5">       
+                                <div class="card card-border-orange">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style={{fontSize: '2rem'}}>EAT</h5>
+                                        <hr style={{height:'2px', border:'none',color:'#eb6b00',backgroundColor:'#eb6b00',width:'25px'}} />
+                                        <p class="card-text text-primary" style={{fontSize: '2rem',fontWeight: 'bolder'}}>RETAIL <span style={{display:'block'}}>SPACE</span></p>
+                                        
+                                        </div>
+                                        <img className="res-img" src={require('../img/feature2.jpg')}  alt="fireSpot"/>
+                                        
+                                </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 mt-5">       
+                                <div class="card card-border-orange">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style={{fontSize: '2rem'}}>MEET</h5>
+                                        <hr style={{height:'2px', border:'none',color:'#eb6b00',backgroundColor:'#eb6b00',width:'25px'}} />
+                                        <p class="card-text text-primary" style={{fontSize: '2rem',fontWeight: 'bolder'}}>MEETING ROOM & <span style={{display:'block'}}>COWORKING SPACE</span></p>
+                                        
+                                        </div>
+                                        <img className="res-img" src={require('../img/feature3.jpg')}  alt="fireSpot"/>
+                                        
+                                </div>
+                        </div>
                 </div>
-                <div className="feature__rooms">
+        </div>
 
-                        <p>5 rooms</p>
-                </div>
-                <div className="feature__area">
-
-                        <p>325 m<sup>2</sup></p>
-                </div>
-                <div className="feature__price">
-
-                        <p>$1,200,000</p>
-                </div>
-                <button className="btn feature__btn">Contact realtor</button>
-            </div>
-
-            <div className="feature">
-                    <img src="img/house-2.jpeg" alt="House 2" className="feature__img"/>
-
-                    <h5 className="feature__name">EAT</h5>
-                    <div className="feature__location">
-
-                            <p>Canada</p>
-                    </div>
-                    <div className="feature__rooms">
-
-                            <p>6 rooms</p>
-                    </div>
-                    <div className="feature__area">
-
-                            <p>450 m<sup>2</sup></p>
-                    </div>
-                    <div className="feature__price">
-
-                            <p>$2,700,000</p>
-                    </div>
-                    <button className="btn feature__btn">Contact realtor</button>
-            </div>
-
-            <div className="feature">
-                    <img src="img/house-3.jpeg" alt="House 3" className="feature__img"/>
-
-                    <h5 className="feature__name">MEET</h5>
-                    <div className="feature__location">
-
-                            <p>UK</p>
-                    </div>
-                    <div className="feature__rooms">
-
-                            <p>4 rooms</p>
-                    </div>
-                    <div className="feature__area">
-    
-                            <p>325 m<sup>2</sup></p>
-                    </div>
-                    <div className="feature__price">
-
-                            <p>$900,000</p>
-                    </div>
-                    <button className="btn feature__btn">Contact realtor</button>
-            </div>
         </section>
 
         <div class="information__content1">
