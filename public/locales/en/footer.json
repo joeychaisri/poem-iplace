@@ -1,0 +1,19 @@
+{
+    "content1":{
+        "header": "iPLACE",
+        "subheader": "LAM CHABANG",
+        "address" : "87/27 Moo 2 Sukhumvit Road Tungsukla, Srirachad Chonburi 20230, THAILAND",
+        "tel":"TEL: (6638) 109 196",
+        "email" : "EMAIL: growth@poem.global"
+    },
+    "content2":{
+        "header": "iPLACE",
+        "subheader": "LAT KRABANG",
+        "address" : "1 Soi Chalongkrung 31 Lamplatiu,Lat Krabang Bangkok 10520, THAILAND",
+        "tel":"TEL: (662) 360 5300-1",
+        "email" : "EMAIL: growth@poem.global"
+    },
+    "contactus": "CONTACT US"
+
+}
+  

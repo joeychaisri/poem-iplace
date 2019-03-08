@@ -1,38 +1,36 @@
 import React from 'react'
+import { withTranslation } from 'react-i18next';
+import i18n from 'i18next';
 class Footer extends React.Component {
   render () {
+    const { t, i18n } = this.props;
+    const changeLanguage = lng => {
+            i18n.changeLanguage(lng);
+    };
     return (
         <footer className="footerbar">
 
         <section className="footer__section1">
-        <h4 class="footer__section1__logo-lcb heading-2">iPLACE</h4>
-        <h4 class="footer__logo-lcb heading-5">LAM CHABANG</h4>
-            <p class="footer__section1__address">87/27 Moo 2 Sukhumvit Road
-            Tungsukla, Srirachad
-            Chonburi 20230, THAILAND
-            TEL: (6638) 109 196
-            EMAIL: growth@poem.global</p>
+        <h4 class="footer__section1__logo-lcb heading-2">{t('content1.header')}</h4>
+        <h4 class="footer__logo-lcb heading-5">{t('content1.subheader')}</h4>
+            <p class="footer__section1__address">{t('content1.address')}<span style={{display:'block'}}>{t('content1.tel')}</span><span>{t('content1.email')}</span></p>
         </section>
 
         <section className="footer__section2">
 
-        <h4 class="footer__section1__logo-lkb heading-2">iPLACE</h4>
-        <h4 class="footer__logo-lkb heading-5">LAT KRABANG</h4>
-            <p class="footer__section2__address">87/27 Moo 2 Sukhumvit Road
-            Tungsukla, Srirachad
-            Chonburi 20230, THAILAND
-            TEL: (6638) 109 196
-            EMAIL: growth@poem.global</p>
+        <h4 class="footer__section1__logo-lkb heading-2">{t('content2.header')}</h4>
+        <h4 class="footer__logo-lkb heading-5">{t('content2.subheader')}</h4>
+            <p class="footer__section2__address">{t('content2.address')}<span style={{display:'block'}}>{t('content2.tel')}</span><span>{t('content2.email')}</span></p>
         </section>
 
         <section className="footer__section3">
 
-        <a className="btn btn--white btn--animated" style={{color:'#eb6b00'}}>CAREER</a>
+        <a className="btn btn--white btn--animated" style={{color:'#eb6b00'}}>{t('contactus')}</a>
 
         <div className="footer--lang" style={{marginTop: "30px"}}>
-            <a >English</a>
+            <a onClick={() => changeLanguage('en')}>English</a>
             <a style={{ paddingLeft: '10px' }}>|</a>
-            <a style={{ paddingLeft: '10px' }}>ภาษาไทย</a>
+            <a style={{ paddingLeft: '10px' }} onClick={() => changeLanguage('th')} >ภาษาไทย</a>
         </div>
         
         <div className="footer--icon" style={{marginTop: "10px"}}> 
@@ -66,4 +64,4 @@ class Footer extends React.Component {
   }
 }
 
-export default Footer;
+export default withTranslation('footer')(Footer);
