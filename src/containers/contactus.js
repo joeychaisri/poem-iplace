@@ -1,5 +1,7 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react';
+import FeedbackForm from './FeedbackForm';
+import PropTypes from 'prop-types';
 
 const AnyReactComponent = ({ text }) => (
     <div style={{
@@ -17,7 +19,7 @@ const AnyReactComponent = ({ text }) => (
     </div>
   );
  
-class news extends React.Component {
+class contactus extends React.Component {
     static defaultProps = {
         center: {
           lat: 13.755665,
@@ -26,6 +28,7 @@ class news extends React.Component {
         zoom: 11
       };
   render () {
+    console.log(this.props.env)
     return (
         <div className="contactus">
             <div className="contactus-map" style={{ height: '47vh', width: '100%' }}>
@@ -43,7 +46,8 @@ class news extends React.Component {
             </div>
 
             <div class="contactus__content1">
-             <h4 class="contactus__content1__header heading-2">ส่งข้อความ</h4>
+            <FeedbackForm env={this.props.env}/>
+             {/* <h4 class="contactus__content1__header heading-2">ส่งข้อความ</h4>
              <h4 class="contactus__content1__subheader heading-2">ติดต่อพวกเรา</h4>
              <div class="contactus__content1__box" style={{marginTop:"30px"}}>
                     <form class="contactus__content1__box__form">
@@ -75,7 +79,7 @@ class news extends React.Component {
                         <a className="btn btn--animated contactus__content1__box__form__line5" style={{width: '100%'}}>SEND</a>
 
                     </form>
-             </div>     
+             </div>      */}
             </div>
 
             <div class="contactus__content2">
@@ -112,4 +116,8 @@ class news extends React.Component {
   }
 }
 
-export default news;
+contactus.propTypes = {
+  env: PropTypes.object.isRequired
+};
+
+export default contactus;
