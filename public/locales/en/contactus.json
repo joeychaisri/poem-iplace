@@ -1,0 +1,26 @@
+{
+    "contactus": {
+        "header1":"SEND US AN EMAIL",
+        "header2":"GET IN TOUCH WITH US",
+        "name":"NAME:*",
+        "email":"E-MAIL:*",
+        "tel":"TEL:*",
+        "subject":"SUBJECT:*",
+        "message":"MESSAGE:*",
+        "send":"SEND"          
+    },
+    "address": {
+        "header" : "CONTACT US",
+        "boxheader" : "Address:",
+        "iplace": "iPLACE Park",
+        "address": "Chalongkrung 31, 299/1 Soi Lat Krabang 52, Lamplatiu, Khet Lat Krabang, Krung Thep Maha Nakhon 10520",
+        "googlemap": "GET DIRECTION",
+        "tellno" : "TELEPHONE",
+        "call": "+66 2 360 5300-1, +66 81 947 5863",
+        "openclose":"OPERATION HOURS",
+        "worktime" : "Everyday 10:00 - 22:00",
+        "aboutus" : "ABOUT US"
+    }
+
+}
+  

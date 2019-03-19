@@ -2,6 +2,7 @@ import React from 'react'
 import GoogleMapReact from 'google-map-react';
 import FeedbackForm from './FeedbackForm';
 import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 
 const AnyReactComponent = ({ text }) => (
     <div style={{
@@ -103,7 +104,10 @@ class contactus extends React.Component {
   }
 
   render () {
-    console.log(this.props.env)
+    const { t, i18n } = this.props;
+    const changeLanguage = lng => {
+      i18n.changeLanguage(lng);
+    };
     return (
         <div className="contactus">
             <div className="contactus-map" style={{ height: '47vh', width: '100%' }}>
@@ -121,61 +125,62 @@ class contactus extends React.Component {
             </div>
 
             <div class="contactus__content1">
-             <h4 class="contactus__content1__header heading-2">ส่งข้อความ</h4>
-             <h4 class="contactus__content1__subheader heading-2">ติดต่อพวกเรา</h4>
+             <h4 class="contactus__content1__header heading-2">{t('contactus.header1')}</h4>
+             <h4 class="contactus__content1__subheader heading-2">{t('contactus.header2')}</h4>
              <div class="contactus__content1__box" style={{marginTop:"30px"}}>
                     <form class="contactus__content1__box__form">
                         <div class="contactus__content1__box__form__line1">
-                        <label class="contactus__content1__box__form__line1__label" style={{ display : 'block' }} >Name:  </label>
+                        <label class="contactus__content1__box__form__line1__label" style={{ display : 'block' }} >{t('contactus.name')}</label>
                         <input class="input contactus__content1__box__form__line1__input" type="text" name="name" onChange={this.handleChange} value={this.state.name}/>
                         
                         </div>
                         
                         <div class="contactus__content1__box__form__line2">
-                        <label class="contactus__content1__box__form__line2__label"style={{}} >Email:  </label>
+                        <label class="contactus__content1__box__form__line2__label"style={{}} >{t('contactus.email')}</label>
                         <input class="input contactus__content1__box__form__line2__input"  type="text" name="email" onChange={this.handleChange} value={this.state.email}/>
                         </div>
 
                         <div class="contactus__content1__box__form__line2">
-                        <label class="contactus__content1__box__form__line2__label"style={{}} >Tel No.:  </label>
+                        <label class="contactus__content1__box__form__line2__label"style={{}} >{t('contactus.tel')}</label>
                         <input class="input contactus__content1__box__form__line2__input"  type="text" name="tel" onChange={this.handleChange} value={this.state.tel}/>
                         </div>
                         
                         <div class="contactus__content1__box__form__line3">
-                            <label class="contactus__content1__box__form__line3__label" style={{ display : 'block' }} >Subject:  </label>
+                            <label class="contactus__content1__box__form__line3__label" style={{ display : 'block' }} >{t('contactus.subject')}</label>
                             <input class="input contactus__content1__box__form__line3__input"   type="text" name="subject" onChange={this.handleChange} value={this.state.subject}/>
                         </div>
                      
                         <div class="contactus__content1__box__form__line4">
-                            <label class="contactus__content1__box__form__line4__label" style={{ display : 'block' }} >Message:  </label>
+                            <label class="contactus__content1__box__form__line4__label" style={{ display : 'block' }} >{t('contactus.message')}</label>
                             <input class="input contactus__content1__box__form__line4__input" style={{}} type="text" name="message" onChange={this.handleChange} value={this.state.message}/>
                         </div>
                         
-                        <a className="btn btn--animated contactus__content1__box__form__line5" style={{width: '100%'}} onClick={this.handleSubmit} >SEND</a>
+                        <a className="btn btn--animated contactus__content1__box__form__line5" style={{width: '100%'}} onClick={this.handleSubmit} >{t('contactus.send')}</a>
 
                     </form>
              </div>     
             </div>
 
             <div class="contactus__content2">
-            <h4 class="contactus__content2__header heading-2">ติดต่อเรา</h4>
+            <h4 class="contactus__content2__header heading-2">{t('address.header')}</h4>
             <div class="contactus__content2__box" style={{marginTop:"30px"}}>
                     <div style={{margin:"30px 30px 30px 30px"}}>
 
-                    <p class="contactus__content2__boxheader" >ADDRESS:</p>
-                    <p>iPLACE PARK</p>
-                    <p>1 Soi Chalongkrung 31, Lamplatiu, Lat Krabang, Bangkok, 10520, THAILAND</p>
+                    <p class="contactus__content2__boxheader" >{t('address.header')}</p>
+                    <p>{t('address.boxheader')}</p>
+                    <p>{t('address.iplace')}</p>
+                    <p>{t('address.address')}</p>
                     <br/>
-                    <a className="btn btn--animated" >GET DIRECTION</a>
+                    <a className="btn btn--animated" >{t('address.googlemap')}</a>
                     <br/>
                     <br/>
-                    <p class="contactus__content2__boxheader">TEL</p>
-                    <p>+66 2 360 5300-1, +66 81 947 5863</p>
+                    <p class="contactus__content2__boxheader">{t('address.tellno')}</p>
+                    <p>{t('address.call')}</p>
                     <br/>
-                    <p class="contactus__content2__boxheader">OPERATION HOURS</p>
-                    <p>Everyday 10:00 - 22:00</p>
+                    <p class="contactus__content2__boxheader">{t('address.openclose')}</p>
+                    <p>{t('address.worktime')}</p>
                     <br/>
-                    <a className="btn btn--animated">ABOUT US</a>
+                    <a className="btn btn--animated">{t('address.aboutus')}</a>
                     <br/>
                     
                     </div>
@@ -195,4 +200,4 @@ contactus.propTypes = {
   env: PropTypes.object.isRequired
 };
 
-export default contactus;
+export default withTranslation('contactus')(contactus);
