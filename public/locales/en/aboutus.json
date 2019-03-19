@@ -1,42 +1,47 @@
 {
-    "retail": "ABOUTiPLACE",
-    "retail-description": "คอมมูนิตี้มอลล์ ใจกลางย่านธุรกิจ ภายใต้นิยามของการใช้ชีวิตสมัยใหม่ ที่ต้องการหลีกหนีความวุ่นวายพร้อมสิ่งอำนวยความสะดวกสบายครบวงจร ทางเลือกของคนเมืองที่จะเติมเต็มชีวิตคุณ iPLACE PARK เป็นจุดนัดพบ ช้อปปิ้ง สังสรรค์ ในบรรยากาศสบายๆ เพราะเราเชื่อว่า การพักผ่อนที่ดีย่อมสร้างสุขภาพจิตที่ดี เช่นเดียวกับ iPLACE PARK ที่มีความต้องการให้คุณได้พบกับสิ่งที่ดีที่เราต้องการมอบให้ เพราะคุณคือคนพิเศษที่เราพร้อมดูแลด้วยความใส่ใจ รวมถึงเป็นสถานที่ Hang Out แห่งใหม่ ก้าวสู่โลกแห่งความสุขและความผ่อนคลาย ตั้งอยู่บนพื้นที่ทำเลทองด้านหน้านิคมอุตสาหกรรมลาดกระบัง ติดถนนฉลองกรุง ซึ่งเป็นอาคาร 3 ชั้น แบ่งออกเป็น พื้นที่ชั้นที่ 1 และ 2 ประกอบไปด้วย ซุปเปอร์มาร์เก็ต ร้านอาหาร ธนาคาร ศูนย์ไอที และอื่นๆ ในส่วนพื้นที่ชั้น 3 ถูกจัดสรรให้เป็นพื้นที่บริการภายใต้ ARYU Executive Residence ที่พักรูปแบบใหม่ สไตล์มินิมอลสำหรับผู้บริหาร นักธุรกิจ และนักท่องเที่ยวที่ต้องการความสะดวกสบายในทุกๆด้าน ไม่ว่าจะเป็นการรับประทานอาหาร ช้อปปิ้ง หรือรวมไปถึงการทำธุรกรรมต่างๆ ในด้านของการเดินทางมีความสะดวก รวดเร็ว อยู่ใกล้ท่าอากาศยานสุวรรณภูมิ นิคมอุตสาหกรรมลาดกระบัง มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง และมอเตอร์เวย์หมายเลข 7 กล่าวได้ว่าผู้ที่เข้ามาใช้บริการ iPLACE PARK Lat Krabang แห่งนี้จะได้รับความสะดวกสบายและการบริการที่ครอบคลุมกับความต้องการในการใช้ชีวิตประจำวันได้อย่างแน่นอน",
-    "address" : {
-        "header" : "ที่อยู่",
-        "subheader" : "เวลาทำการ",
-        "description1" : "ไอเพลส พาร์ค",
-        "description2" : "1 ซอยฉลองกรุง 31 ถนนฉลองกรุง แขวงลำปลาทิว เขตลาดกระบัง จังหวัดกรุงเทพมหานคร 10520 ประเทศไทย",
-        "tel-header" : "เบอร์โทรศัพท์",
-        "tel-description" : "+66 2 360 5300, +66 81 947 5863",
-        "date-header" : "เวลาให้บริการ",
-        "date-description" : "เปิดบริการทุกวัน 10:00 - 22:00"
+    "retail": "ABOUT iPLACE",
+    "retail-description": "iPLACE is a community mall in the middle of business district. Under a conceptual of the new lifestyle to escape the strain from the city, we offer one stop service utilities and facilities for your life. iPLACE PARK combines meeting space, shopping space, party space with the environment friendly. We believe a relaxation is good for mental health. Everyone are an exclusive customers. Our professional staffs are standby and be ready to assist you. iPLACE direction are located in front of Lat Krabang Industrial Estate entrance (Nikhom Lat Krabang) on the main road of Chalong Krung. The building consists of 3 floor, on the first floor and second floor are supermarket, restaurants, banks, IT zone, and others. On the third floor, co-working space and meeting space has been prepared to help you growing and continuing your business. Our place located near Suvarnnabhumi airport, King Mongkut's Institute of Technology Ladkrabang, and Motorway no.7 as of it is easy access location from all over the place in Lat Krabang district, iPLACE Park Lat Krabang, our place will continue improve our service to be the best comfort mall which covers the needs of everyday life.",
+    "address": {
+        "header" : "iPLACE",
+        "subheader" : "MALL",
+        "boxheader" : "Address:",
+        "iplace": "iPLACE Park",
+        "address": "Chalongkrung 31, 299/1 Soi Lat Krabang 52, Lamplatiu, Khet Lat Krabang, Krung Thep Maha Nakhon 10520",
+        "googlemap": "GET DIRECTION",
+        "tellno" : "TELEPHONE",
+        "call": "+66 2 360 5300-1, +66 81 947 5863",
+        "openclose":"OPERATION HOURS",
+        "worktime" : "Everyday 10:00 - 22:00",
+        "aboutus" : "ABOUT US"
     },
     "direction":{
-        "header" : "เส้นทาง",
-        "subheader" : "การเดินทาง",
+        "header" : "DIRECTIONS",
+        "subheader" : "& TRANSPORTATION",
         "route1" : {
-            "header" : "1. รถโดยสารขนาดเล็ก (สองแถว) สายสีแดง หัวตะเข้–แยกหนองจอก/ตลาดมีนบุรี",
-            "description" : "ต้นทาง ตลาดหัวตะเข้ – มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง – ถนนฉลองกรุง – แยกเจ้าคุณทหาร – ไอเพลส พาร์ค ลาดกระบัง ลงรถใต้สะพานลอย หน้านิคมอุตสาหกรรมลาดกระบัง"
+            "header" : "1. A minibus (red color) Huatakae–Nong Chok Junction/Meanburi Market",
+            "description" : "Start at Huatakae market – King Mongkut's Institute of Technology Latkrabang – Chalong Krung road – Chao Khun Taharn junction– iPLACE PARK Lat Krabang drop-off at the footbridge before Latkrabang Industrial Estate(Nikhom Lat Krabang)"
         },
         "route2" : {
-            "header" : "2. รถตู้โดยสารปรับอากาศ สายหัวตะเข้-มีนบุรี",
-            "description" : "ต้นทาง ตลาดหัวตะเข้ – มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง – ถนนฉลองกรุง – แยกเจ้าคุณทหาร – ไอเพลส พาร์ค ลาดกระบัง ลงรถใต้สะพานลอย หน้านิคมอุตสาหกรรมลาดกระบัง"
+            "header" : "2. Minivan Huatakae-Meanburi",
+            "description" : "Start at Huatakae market – King Mongkut's Institute of Technology Latkrabang – Chalong Krung road – Chao Khun Taharn junction – iPLACE PARK Lat Krabang drop-off at the footbridge before Latkrabang Industrial Estate(Nikhom Lat Krabang) "
         },
         "route3" : {
-            "header" : "3. รถประจำทางสาย 143 แฮปปี้แลนด์–สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
-            "description" : "ต้นทาง ตลาดแฮปปี้แลนด์ - การเคหะชุมชนร่มเกล้า – ถนนเจ้าคุณทหาร – แยกเจ้าคุณทหาร –นั่งวินมอเตอร์ไซต์หรือเดิน 750 เมตร – ไอเพลส พาร์ค ลาดกระบัง"
+            "header" : "3. Bus no. 143 to Happyland–King Mongkut's Institute of Technology Latkrabang",
+            "description" : "Start at Happyland market - Rom Klao district – Chao Khun Taharn road – Chao Khun Taharn junction –take a bike taxi or walk around 750 meters to iPLACE – iPLACE PARK Lat Krabang"
         }
     },
-    "AMENITIES":{
-        "accessible-parking": "ที่จอดรถคนพิการ",
-        "parking": "ที่จอดรถ",
-        "bikeracks": "เส้นทางจักรยาน",
-        "wifi": "อินเตอร์เน็ต",
-        "directory": "แผนผังอาคาร",
-        "baby-changing": "ห้องเปลี่ยนผ้าอ้อม",
-        "restroom": "ห้องน้ำ",
-        "atm": "เอทีเอ็ม",
-        "bus-stop":"ป้ายรถประจำทาง"
+    "amenities":{
+        "header1":"AMENITIES",
+        "header2":"IN iPLACE LAT KRABANG",
+        "accessible-parking": "ACCESSIBLE PARKING",
+        "parking": "PARKING",
+        "bikeracks": "BIKE RACKS",
+        "wifi": "Wi-Fi",
+        "directory": "DIRECTORIES (MAP)",
+        "baby-changing": "BABY CHANGING",
+        "restroom": "RESTROOM",
+        "atm": "ATM",
+        "bus-stop":"BUS STOP"
     }
 }
   

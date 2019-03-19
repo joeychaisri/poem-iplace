@@ -11,7 +11,6 @@ const Loader = () => (
 );
 class App extends Component {
   render() {
-    // console.log(this.props.env)
     return (
       <Suspense fallback={<Loader />}>
       <BrowserRouter>

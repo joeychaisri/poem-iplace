@@ -31,6 +31,7 @@ class Routes extends Component{
   }
 }
 
+//สำหรับการส่งเมลล์
 Routes.propTypes = {
   env: PropTypes.object.isRequired
 };
